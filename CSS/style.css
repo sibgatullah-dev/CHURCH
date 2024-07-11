@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+/* ------------------------------------------------------------------------------ */
+
+/* navbar starts-------------------------------------- */
+
+.navbar{
+    background-color: #0D0D0D;
+    height: 80px;
+}
+
+.navbar .container .collapse ul li a{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 48px;
+}
+.navbar .container .navbar-brand{
+   
+    margin-right: 124px;
+}
+
+.navbar .container .nav-btn a{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 48px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+}
+
+
+/* navbar ends-------------------------------------- */
+
+
+
+
+/* banner starts-------------------------------------- */
+
+#banner{
+    background-image: url(../images/Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 141px;
+    padding-bottom: 12px;
+}
+
+#banner .container .row .banner-items h4{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+    padding-bottom: 32px;
+    
+}
+#banner .container .row .banner-items h1{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 42px;
+    
+}
+#banner .container .row .banner-items p {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 64px;
+    padding-bottom: 128px; 
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 120px;  
+}
+#banner .container .row .banner-items p::after{
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 2px;
+    background-color: #FFD2A4;
+    top: 31.5%;
+    left: 0;
+}
+
+#banner .container .row .banner-items .paragraph .dag i{
+   color: #FFD2A4 ;
+   margin-right: 20px;
+}
+#banner .container .row .banner-items a{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 48px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+
+}
+/* banner starts-------------------------------------- */
+
+/* feature section starts-------------------------------------- */
+#feture{
+    padding: 128px 0;
+}
+#feture .container .textpart .row .feture-text h4{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+    padding-bottom: 20px;
+}
+#feture .container .textpart .row .feture-text h2{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 76px;
+}
+#feture .container .cardpart .row .feture-card h3{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+#feture .container .cardpart .row .feture-card p{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#feture .container .cardpart .row .feture-card{
+    padding: 80px 85px 64px 80px;
+}
+#feture .container .cardpart .row .feture-card{
+    background-color: #FFF5EB;
+    position: relative;
+}
+#feture .container .cardpart .row .feture-card::after{
+    position: absolute;
+    content: '';
+    height:16px;
+    width: 100%;
+    background-color: #FFD2A4;
+    bottom: 0;
+    left: 0;
+}
+
+/* feature section ends-------------------------------------- */
+
+
+/* compassion section starts-------------------------------------- */
+#compassion{
+    padding-bottom: 64px;
+}
+#compassion .container .row .headlines h4{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#compassion .container .row .headlines p{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-bottom: 86px;
+}
+#compassion .container .row .headlines h2{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+#compassion .container .row .compassion-btn a{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 24px 64px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+
+}
+#compassion .container .row .compassion-img{
+    padding-bottom: 24px;
+}
+#compassion .container .row .custom-padding1{
+    padding-top: 48px;
+}
+#compassion .container .row .compassion-bottom h2{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+#compassion .container .row .compassion-bottom h4{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 64px;
+}
+#compassion .container .row .compassion-bottom p{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-bottom: 16px;
+}
+#compassion .container .row .compassion-bottom a{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+#compassion .container .row .compassion-bottom i{
+   padding-left: 8px;
+}
+
+/* compassion section ends-------------------------------------- */
+
+
+
+/* Benifit section starts-------------------------------------- */
+
+#benifit{
+    padding: 128px 0;   
+}
+
+#benifit .container .row .benifit-text h2{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 8px 40px;
+   
+}
+#benifit .container .row .benifit-text h4{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 64px;
+}
+
+#benifit .container .row .benifit-card{
+    position: relative;
+    overflow: hidden;
+}
+#benifit .container .row .benifit-card .overlay{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 6, 6, 0.1), #060606);
+    bottom:-100px;
+    left: 0;
+    padding: 0 32px 32px;
+    transition: all linear .2s;
+    
+}
+#benifit .container .row .benifit-card .overlay .txt h3{
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+#benifit .container .row .benifit-card .overlay .txt p{
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;   
+}
+#benifit .container .row .benifit-card:hover .overlay{
+    bottom: 0;   
+    transition: all linear .2s; 
+}
+
+/* Benifit section ends-------------------------------------- */
+
+/* Community section  starts-------------------------------------- */
+#community{
+    padding: 124px 0;
+}
+#community .container .row .community-heading h4{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}   
+#community .container .row .community-heading h2{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 0 64px;
+}
+#community .container .row .community-items{
+    position: relative;
+    background-color:#FFF5EB;
+    padding: 82px 90px;
+}
+#community .container .row .community-items .community-date{
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    text-align: center;
+}
+#community .container .row .community-items .community-txt h4{
+    color: #DC9853;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#community .container .row .community-items .community-txt p{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+#community .container .row .community-items .community-txt h3{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 18px 10px 18px 0 ;
+}
+#community .container .row .community-items .community-time .time{
+    padding: 32px 0 16px ;
+}
+#community .container .row .community-items .community-time .time img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    transform: translatey(17%);
+}
+#community .container .row .community-items .community-time .time p{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 50px;
+    line-height: 24px;
+}
+
+#community .container .row .community-items .community-time .addres{
+    padding-bottom: 32px ;
+}
+#community .container .row .community-items .community-time .address img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    transform: translatey(17%);
+}
+#community .container .row .community-items .community-time .address p{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 40px;
+    line-height: 24px;
+}
+#community .container .row .community-items .community-time .community-button a{
+    color: #FFD2A4;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 24px 64px;
+    background-color: #1C1D28;
+    border-radius: 12px;
+}
+#community .container .row .community-items .community-time .community-button{
+    padding-top: 56px;
+}
+
+#community .container .row .community-view a span{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-right:11px ;
+} 
+
+#community .container .row .community-view a i{
+    color: #1C1D28;
+} 
+#community .container .row .community-view{
+    padding-top:40px ;
+}
+
+/* Community section ends-------------------------------------- */
+
+/* serving section starts-------------------------------------- */
+
+#serving{
+    background-image: url(../images/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:128px 0 ;
+}
+
+#serving .container .row .serving-items{
+    background-color: white;
+    padding:0 48px 72px  ;
+    position: relative;
+}
+#serving .container .row .serving-items::after{
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color:#FFD2A4 ;
+}
+
+#serving .container .row .serving-items .serving-txt h3{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 64px;
+    padding:72px 115px 16px 0;
+    
+}
+#serving .container .row .serving-items .serving-txt p{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 200px;
+    
+}
+#serving .container .row .serving-items .serving-txt .button a{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 24px 64px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+}
+#serving .container .row .serving-items .serving-txt .button{
+    padding-top: 40px;
+}
+#serving .container .row .serving-items .serving-img{
+    padding-top: 30%;
+}
+/* Serving section ends-------------------------------------- */
+
+/* Blog section starts-------------------------------------- */
+
+#blog{
+    padding: 128px 0;
+}
+#blog .container .row .blog-card{
+    background-color: #FFF5EB;
+    padding: 48px 32px;
+    position: relative;
+}
+#blog .container .row .blog-card::after{
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 0;
+    background-color: #FFD0A0 ;
+    bottom: 0;
+    left: 50%;
+    transition: all linear .2s;
+}
+#blog .container .row .blog-card:hover::after{
+    width: 100%;
+    transition: all linear .2s;
+    left: 0;   
+}
+#blog .container .row .blog-card h5{
+    color: #DC9853;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+#blog .container .row .blog-card h3{
+    color: #161722;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+#blog .container .row .blog-card p{
+    color: #161722;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+#blog .container .row .blog-card .recommand h4{
+    color: #161722;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 18px;
+    font-weight:300;
+    text-transform: capitalize;
+    padding-bottom: 4px;
+}
+#blog .container .row .blog-card .recommand h5{
+    color: #161722;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 16px;
+    font-weight:300;
+    text-transform: capitalize;
+}
+#blog .container .row .blog-txt h5{
+    color: #161722;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 16px;
+    font-weight:300;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+#blog .container .row .blog-txt h2{
+    color: #161722;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 64px;
+    line-height: 64px;
+}
+
+/* Blog section ends-------------------------------------- */
+
+/* Footer section starts-------------------------------------- */
+
+#footer{
+    padding: 64px 0 48px;
+    background-color:#161722 ;
+}
+#footer .container .row .footer-info h5{
+    color: #FFFFFF;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 16px 0 32px;
+}
+#footer .container .row .footer-info h4{
+    color: #FFFFFF;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+#footer .container .row .quicklinks h5{
+    color: #FFFFFF;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#footer .container .row .quicklinks ul li{
+    padding-top: 16px;
+}
+#footer .container .row .quicklinks ul li a{
+    color: #FFFFFF;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+#footer .container .row .connect{
+    padding-left: 72px;
+}
+#footer .container .row .connect h5{
+    color: #FFFFFF;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom:20px ;
+}
+#footer .container .row .connect .social a{
+    margin-right:20px ;   
+}
+
+#footer .container .row .footer-mail .footer-form button{
+    color: #1C1D28;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 21px 64px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#footer .container .row .footer-mail .footer-form{
+    position: relative;
+}
+#footer .container .row .footer-mail .footer-form .form-control{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(253, 253, 253, 0.2);
+    padding: 20px 0 20px 20px;
+    
+}
+#footer .container .row .footer-mail .footer-form .form-control::placeholder{
+    color: white;
+}
+#footer .container .row .footer-mail .footer-form .form-control:focus{
+    box-shadow: none;
+}
+#footer .container .row .footer-mail h3{
+    color: #FFFFFF;
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+    padding-right: 40px;
+    line-height: 44px;
+}
+/* Footer section ends -------------------------------------- */
+
