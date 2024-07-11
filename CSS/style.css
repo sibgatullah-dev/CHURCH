@@ -19,6 +19,8 @@ h1,h2,h3,h4,h5,h6,p{
 .navbar{
     background-color: #0D0D0D;
     height: 80px;
+    position: relative;
+    z-index: 9999;
 }
 
 .navbar .container .collapse ul li a{
@@ -58,7 +60,7 @@ h1,h2,h3,h4,h5,h6,p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 141px;
+    padding-top: 250px;
     padding-bottom: 12px;
 }
 
